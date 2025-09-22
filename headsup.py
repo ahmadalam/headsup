@@ -1,10 +1,13 @@
 #!/usr/bin/env python
 
-# landscape-sysinfo-mini.py -- a trivial re-implementation of the
-# sysinfo printout shown on debian at boot time. No twisted, no reactor, just /proc.
+# headsup.py -- a trivial re-implementation of the sysinfo printout 
+# shown on debian at boot time.
 #
-# Loosly based on https://github.com/jnweiger/landscape-sysinfo-mini which in turn was
+# Originally from https://github.com/thusoy/headsup by Tarjei Husøy
+# which was based on https://github.com/jnweiger/landscape-sysinfo-mini
 # inspired by ubuntu 14.10 /etc/update-motd.d/50-landscape-sysinfo
+#
+# This version includes performance improvements and Python 3 compatibility fixes.
 
 from __future__ import division
 
